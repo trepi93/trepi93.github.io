@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hypertree Pokemon Visualization</title>
+    <script type="text/javascript" src="Jit.js"></script>
+    <style>
+        #infovis {
+            width: 1200px;
+            height: 800px;
+            border: 1px solid #ccc;
+            margin: 20px auto;
+            background: #f9f9f9;
+            font-family: Poppins;
+        }
+
+        #inner-details {
+            width: 1200px;
+            margin: 20px auto;
+            font-family: Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center; font-family: Poppins">Hypertree Pokemon Visualization</h2>
+    <div id="infovis"></div>
+    <div id="inner-details"></div>
+
+    <script type="text/javascript">
+        const w = 1200;
+        const h = 800;
+
+        async function loadJsonData(url) {
+            const response = await fetch(url);
+            return response.json();
+        }
+
+        // Initialize the hypertree after loading JSON
+        loadJsonData('pokemon_structure_with_ids.json').then((json) => {
+            var ht = new $jit.Hypertree({
+                injectInto: 'infovis',
+                width: w,
+                height: h,
+                Node: {
+                    dim: 9,
+                    color: "#f00",
+                    overridable: true
+                },
+                Edge: {
+                    lineWidth: 0.5,
+                    color: "#82CAFF"
+                },
+                onBeforeCompute: function (node) {
+                    console.log("centering");
+                },
+                onCreateLabel: function (domElement, node) {
+                    domElement.innerHTML = node.name;
+                    $jit.util.addEvent(domElement, 'click', function () {
+                        ht.onClick(node.id, {
+                            onComplete: function () {
+                                ht.controller.onComplete();
+                            }
+                        });
+                    });
+                },
+                onPlaceLabel: function (domElement, node) {
+                    var style = domElement.style;
+                    style.display = '';
+                    style.cursor = 'pointer';
+
+                    if (node._depth == 0) {
+                        style.fontSize = "1em";
+                        style.color = "#000";
+                        style.fontWeight = 'bold'
+
+
+                    } else if (node._depth == 1) {
+                        style.fontSize = "0.8em";
+                        style.color = "#008000";
+                        style.fontWeight = 'normal'
+
+                    } else if (node._depth == 2) {
+                        style.fontSize = "0.6em";
+                        style.color = "#0000ff";
+                        style.fontWeight = 'normal'
+
+                    } else {
+                        style.display = 'none';
+                    }
+
+
+                    var left = parseInt(style.left);
+                    var w = domElement.offsetWidth;
+                    style.left = (left - w / 2) + 'px';
+                },
+            });
+
+            // Load JSON data into hypertree and plot
+            ht.loadJSON(json);
+            ht.refresh();
+        }).catch(error => console.error("Error loading JSON data:", error));
+    </script>
+
+    <h6 style="text-align: left; font-family: Poppins; font-weight: bold; margin: 0; line-height: 1.2;">
+        Font:
+    </h6>
+    <h6 style="text-align: left; font-family: Poppins; font-weight: normal; margin: 0; line-height: 1.2;">
+        https://www.kaggle.com/datasets/mariotormo/complete-pokemon-dataset-updated-090420
+    </h6>
+
+    <h6 style="text-align: left; font-family: Poppins; font-weight: bold; margin: 0; line-height: 2;">
+        Referència pel gràfic:
+    </h6>
+    <h6 style="text-align: left; font-family: Poppins; font-weight: normal; margin: 0; line-height: 1.2;">
+        https://philogb.github.io/jit/static/v20/Jit/Examples/Hypertree/example1.html
+    </h6>
+</body>
+
+</html>

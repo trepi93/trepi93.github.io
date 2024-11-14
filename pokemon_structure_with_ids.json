@@ -1,0 +1,1459 @@
+{
+    "id": "1",
+    "name": "Pokemon 1st generation",
+    "children": [
+        {
+            "id": "2",
+            "name": "Legendary",
+            "data": [],
+            "children": [
+                {
+                    "id": "3",
+                    "name": "Psychic",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "4",
+                            "name": "Fighting",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "5",
+                                    "name": "Mega Mewtwo X",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Mythical",
+            "data": [],
+            "children": [
+                {
+                    "id": "7",
+                    "name": "Psychic",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "165",
+                            "name": "Mew",
+                            "data": {
+                                "relation": "name"
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Normal",
+            "data": [],
+            "children": [
+                {
+                    "id": "9",
+                    "name": "Bug",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "10",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "11",
+                                    "name": "Butterfree",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "12",
+                                    "name": "Scyther",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "13",
+                                    "name": "Mega Pinsir",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "Grass",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "15",
+                                    "name": "Paras",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "16",
+                                    "name": "Parasect",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "17",
+                            "name": "Poison",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "18",
+                                    "name": "Weedle",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "19",
+                                    "name": "Kakuna",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "20",
+                                    "name": "Beedrill",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "21",
+                                    "name": "Mega Beedrill",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "22",
+                                    "name": "Venonat",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "23",
+                                    "name": "Venomoth",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "24",
+                    "name": "Dark",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "25",
+                            "name": "Normal",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "26",
+                                    "name": "Alolan Rattata",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "27",
+                                    "name": "Alolan Raticate",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "28",
+                    "name": "Dragon",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "29",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "30",
+                                    "name": "Dragonite",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "31",
+                    "name": "Electric",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "32",
+                            "name": "Psychic",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "33",
+                                    "name": "Alolan Raichu",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "34",
+                            "name": "Steel",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "35",
+                                    "name": "Magnemite",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "36",
+                                    "name": "Magneton",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "37",
+                    "name": "Fairy",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [{
+                        "id": "180",
+                        "name": "Clefairy",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "181",
+                        "name": "Clefable",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    }]
+                },
+                {
+                    "id": "38",
+                    "name": "Fighting",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [{
+                        "id": "167",
+                        "name": "Mankey",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "168",
+                        "name": "Primeape",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "169",
+                        "name": "Machop",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "170",
+                        "name": "Machoke",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "171",
+                        "name": "Machamp",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "172",
+                        "name": "Galarian Farfetch'd",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "173",
+                        "name": "Hitmonlee",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "174",
+                        "name": "Hitmonchan",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    }]
+                },
+                {
+                    "id": "39",
+                    "name": "Fire",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "40",
+                            "name": "Dragon",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "41",
+                                    "name": "Mega Charizard X",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "42",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "43",
+                                    "name": "Charizard",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "44",
+                                    "name": "Mega Charizard Y",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "45",
+                            "name": "Ghost",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "46",
+                                    "name": "Alolan Marowak",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "47",
+                    "name": "Ghost",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "48",
+                            "name": "Poison",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "49",
+                                    "name": "Gastly",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "50",
+                                    "name": "Haunter",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "51",
+                                    "name": "Gengar",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "52",
+                                    "name": "Mega Gengar",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "53",
+                    "name": "Grass",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "54",
+                            "name": "Dragon",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "55",
+                                    "name": "Alolan Exeggutor",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "56",
+                            "name": "Poison",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "57",
+                                    "name": "Bulbasaur",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "58",
+                                    "name": "Ivysaur",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "59",
+                                    "name": "Venusaur",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "60",
+                                    "name": "Mega Venusaur",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "61",
+                                    "name": "Oddish",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "62",
+                                    "name": "Gloom",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "63",
+                                    "name": "Vileplume",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "64",
+                                    "name": "Bellsprout",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "65",
+                                    "name": "Weepinbell",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "66",
+                                    "name": "Victreebel",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "67",
+                            "name": "Psychic",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "68",
+                                    "name": "Exeggcute",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "69",
+                                    "name": "Exeggutor",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "70",
+                    "name": "Ground",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "71",
+                            "name": "Rock",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "72",
+                                    "name": "Rhyhorn",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "73",
+                                    "name": "Rhydon",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "74",
+                            "name": "Steel",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "75",
+                                    "name": "Alolan Diglett",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "76",
+                                    "name": "Alolan Dugtrio",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "77",
+                    "name": "Ice",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "78",
+                            "name": "Fairy",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "79",
+                                    "name": "Alolan Ninetales",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80",
+                            "name": "Psychic",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "81",
+                                    "name": "Jynx",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "82",
+                            "name": "Steel",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "83",
+                                    "name": "Alolan Sandshrew",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "84",
+                                    "name": "Alolan Sandslash",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "85",
+                    "name": "Normal",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "86",
+                            "name": "Fairy",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "87",
+                                    "name": "Jigglypuff",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "88",
+                                    "name": "Wigglytuff",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "89",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "90",
+                                    "name": "Pidgey",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "91",
+                                    "name": "Pidgeotto",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "92",
+                                    "name": "Pidgeot",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "93",
+                                    "name": "Mega Pidgeot",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "94",
+                                    "name": "Spearow",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "95",
+                                    "name": "Fearow",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "96",
+                                    "name": "Farfetch'd",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "97",
+                                    "name": "Doduo",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "98",
+                                    "name": "Dodrio",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "99",
+                    "name": "Poison",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "100",
+                            "name": "Dark",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "101",
+                                    "name": "Alolan Grimer",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "102",
+                                    "name": "Alolan Muk",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "103",
+                            "name": "Fairy",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "104",
+                                    "name": "Galarian Weezing",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "106",
+                                    "name": "Zubat",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "107",
+                                    "name": "Golbat",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "108",
+                            "name": "Ground",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "109",
+                                    "name": "Nidoqueen",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "110",
+                                    "name": "Nidoking",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "111",
+                    "name": "Psychic",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "112",
+                            "name": "Fairy",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "113",
+                                    "name": "Galarian Rapidash",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "114",
+                                    "name": "Mr. Mime",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "115",
+                            "name": "Ice",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "116",
+                                    "name": "Galarian Mr. Mime",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "117",
+                    "name": "Rock",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "118",
+                            "name": "Electric",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "119",
+                                    "name": "Alolan Geodude",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "120",
+                                    "name": "Alolan Graveler",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "121",
+                                    "name": "Alolan Golem",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "122",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "123",
+                                    "name": "Aerodactyl",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "124",
+                                    "name": "Mega Aerodactyl",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "125",
+                            "name": "Ground",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "126",
+                                    "name": "Geodude",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "127",
+                                    "name": "Graveler",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "128",
+                                    "name": "Golem",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "129",
+                                    "name": "Onix",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130",
+                            "name": "Water",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "131",
+                                    "name": "Omanyte",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "132",
+                                    "name": "Omastar",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "133",
+                                    "name": "Kabuto",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "134",
+                                    "name": "Kabutops",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "135",
+                    "name": "Steel",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [{
+                        "id": "166",
+                        "name": "Galarian Meowth",
+                        "data": {
+                            "relation": "name"
+                        },
+                        "children": []
+                    }]
+                },
+                {
+                    "id": "136",
+                    "name": "Water",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "137",
+                            "name": "Dark",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "138",
+                                    "name": "Mega Gyarados",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "139",
+                            "name": "Fighting",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "140",
+                                    "name": "Poliwrath",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "141",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "142",
+                                    "name": "Gyarados",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "143",
+                            "name": "Ice",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "144",
+                                    "name": "Dewgong",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "145",
+                                    "name": "Cloyster",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "146",
+                                    "name": "Lapras",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "147",
+                            "name": "Poison",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "148",
+                                    "name": "Tentacool",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "149",
+                                    "name": "Tentacruel",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150",
+                            "name": "Psychic",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "151",
+                                    "name": "Slowpoke",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "152",
+                                    "name": "Slowbro",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "153",
+                                    "name": "Mega Slowbro",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "154",
+                                    "name": "Starmie",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "155",
+            "name": "Sub Legendary",
+            "data": [],
+            "children": [
+                {
+                    "id": "156",
+                    "name": "Electric",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "157",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "158",
+                                    "name": "Zapdos",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "159",
+                    "name": "Fire",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "160",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "161",
+                                    "name": "Moltres",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "162",
+                    "name": "Ice",
+                    "data": {
+                        "relation": "type_1"
+                    },
+                    "children": [
+                        {
+                            "id": "163",
+                            "name": "Flying",
+                            "data": {
+                                "relation": "type_2"
+                            },
+                            "children": [
+                                {
+                                    "id": "164",
+                                    "name": "Articuno",
+                                    "data": {
+                                        "relation": "name"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
